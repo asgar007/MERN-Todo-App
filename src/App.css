@@ -1,0 +1,80 @@
+body{
+  width: 50%;
+  margin: 0 auto;
+}
+header{
+  font-size: 20px;
+  color: rgb(77, 77, 199);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
+  text-align: center;
+}
+input{
+  width: 100%;
+    outline: none;
+    font-size: 15px;
+    padding: 11px;
+    border: 1px solid #afaeae;
+    margin: 0 auto;
+}
+.task {
+  background-color: #476adf;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: inherit;
+  align-items: center; */
+}
+
+.task span{
+  color: white;
+}
+
+/* .task:hover {
+  background: #969595;
+} */
+
+.icon {
+  float: right;
+  margin-right: 20px;
+}
+article{
+  display: grid;
+}
+.edit-todo {
+  width: 85%;
+  font-size: 16px;
+  color: white;
+  background-color: transparent; /* to get backgroud color into form while editing*/
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 8px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.button.selected{
+  color: white;
+  background-color: #6c6777;
+}
+
+.button.clear{
+  float: right;
+  color: white;
+  background-color: red;
+  width: 170px;
+}
